@@ -32,12 +32,13 @@ judgement to determine the best architecture solution.
     support one server being unavailable. This means the other remaining
     servers should have surplus CPU/RAM capacity to handle the extra
     load if this occurs. 
+		    
 		    o For example, if there are two production
 		      servers, ideally 50% of one server's capacity should handle 100% of
 		    the volume at peak, at a minimum. Consider one CPU core (or
 		    hyper-thread) to every 4 gigabytes of memory. 
 		    
-			o For example, for a
+		    o For example, for a
 		    web application server that has 64GB of memory, a 16 thread/core
 		    processing environment is suggested. 
 		    o Assume a maximum allowed size
@@ -48,11 +49,11 @@ judgement to determine the best architecture solution.
  5. Consider dedicating 128MB for one active user at a time. o This value might
     change depending on memory requirements for certain processes, etc.
 		    
-			o This value is based on the memory_limit in PHP's configuration
-					  file and should also account for the overhead web server memory
-					    requirements. 
+		    o This value is based on the memory_limit in PHP's configuration
+		      file and should also account for the overhead web server memory
+		      requirements. 
 		    o For the total amount of users, ensure that there is
-                   a buffer that allows for 30% spikes at any time.*
+                      a buffer that allows for 30% spikes at any time.*
 
 **Network Speed**
 • These servers should have gigabit network interfaces and should be local to the shared resources of
