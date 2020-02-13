@@ -60,7 +60,8 @@ judgement to determine the best architecture solution.
 the load balancer and dependencies (file server, databases and caching). Ensure that your router and
 Internet bandwidth supports your expected incoming and outgoing traffic.
 
-# Error Percentage Table Per Instance
+## Error Percentage Table per N users 
+
 | Instance Type |  vCPU | Memory |  Network I/O | 20 Users | 40 Users | 60 Users| 80 Users | 100 Users|200 Users|300 Users| 400 Users|
 |------|----|----|------|-----|----|------|----|----|------|-----|-----|
 | t2.medium |  2| 4 |  1 G |  [2.02%](https://zisoft-jmeter.s3-us-west-2.amazonaws.com/Tests/t2.medium/20user/Report/index.html) | [5.22%](https://zisoft-jmeter.s3-us-west-2.amazonaws.com/Tests/t2.medium/40user/Report/index.html)| [10.64%](https://zisoft-jmeter.s3-us-west-2.amazonaws.com/Tests/t2.medium/60user/Report/index.html)| - - - | - - -|- - - |- - - | - - - |
