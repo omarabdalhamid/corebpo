@@ -92,7 +92,7 @@ Go to the LOGIN app. request component, set the username value = ${username}
 ***Error Percentage Per users Diagram ***
 
 ![alt text](https://zisoft-jmeter.s3-us-west-2.amazonaws.com/Tests/Error.png)
-h
+
 
 ***Error Percentage Table Per Instance***
 
