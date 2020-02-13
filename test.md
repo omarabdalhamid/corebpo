@@ -192,16 +192,8 @@ Estimation HW Sizing
 
 Active users = Concurrent users who access the application at CPUT (server CPU Session time out 30s)
 
-Active users = 250,000 \* 5 / 100 = 12500
+Active users = Total number of users \* 5 / 100 = N
 
 Estimate 5%  has an estimated 12500 simultaneous users at their peak time. They&#39;ve stated they can only support servers with a max memory of 128 GB. They request that they have a redundancy level of 3 ( 30 % of their fleet could be down at any time). Memory per user will be 64MB).
 
-| **Parameter Levels** | **Calculation** | **Result** |
-| --- | --- | --- |---|---|---| 
-| Memory Calculation: | (12500 \* 64 \* 1.3) / 2048 = **507.81 GB** | 512 GB |
-| Server  ( VM ) Count Calculation: | (512\* 3) / 128 = 12 | 12 server (VM) |
-| Minimum Memory per server: | (512 \* 3) / ( 2 \*12) = 64 rounded up to a whole number divisible by 8 = 64 **GB** | 64 GB per server. |
-| CPU Cores per server: | 64/ 4 = 16 | 16 cores |
-| **Total Data Transfer / sec** | 12500 \* 15.51 MB / CPUT ( 30 ) = 6463.5MB = 6.5 GB | 6.5 GB/s |
-| **Data Transfer / server (VM)** | 6.5 GB  / 12 | 541 MB/s |
 
