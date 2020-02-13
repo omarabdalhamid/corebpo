@@ -188,7 +188,7 @@ Create a CSV file and put USER1, USER2 .....USER249, USER250 vetically in one co
 In this page you should browse the CSV file location and determine the separator between each column in that CSV file and set "username" as a  variable that will represent the usernames that you have already put in the first column in the CSV.
 Go to the LOGIN app. request component, set the username value = ${username}
 
-***Error Percentage Per users Diagram ***
+***Error Percentage Per users Diagram***
 
 ![alt text](https://zisoft-jmeter.s3-us-west-2.amazonaws.com/Tests/Error.png)
 
@@ -210,7 +210,7 @@ Go to the LOGIN app. request component, set the username value = ${username}
 ***Cost Estimation per N users***
 
 | Users |  vCPU | Memory |  Network I/O | No . of Machine | Estimated Cost|
-|------|----|----|------|-----|----|------|----|----|------|-----|-----|
+|------|----|----|------|-----|----|
 | 20 |  2 | 4|  1 G | 1| 60 USD|
 | 40 |  2 | 4|  1 G | 1| 60 USD |
 | 60 |  4 | 16 |  1 G | 1| 175 USD|
