@@ -3,7 +3,6 @@
 ## **ZiSoft Awareness Load Testing**
 
 Load testing is performed to determine ZiSoft Awareness behavior under both normal and anticipated peak load conditions. It helps to identify the maximum operating capacity of an application as well as any bottlenecks and determine which element is causing degradation. When the load placed on the system is raised beyond normal usage patterns to test the system's response at unusually high or peak loads, it is known as stress testing. The load is usually so great that error conditions are the expected result, but there is no clear boundary when an activity ceases to be a load test and becomes a stress test.
----
 
 **Overview**
 ZiSoft Awareness is a flexible web-based application that is designed to accommodate both small-scale
