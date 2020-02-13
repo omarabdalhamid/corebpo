@@ -53,7 +53,7 @@ judgement to determine the best architecture solution.
 		      file and should also account for the overhead web server memory
 		      requirements. 
 		    o For the total amount of users, ensure that there is
-                      a buffer that allows for 30% spikes at any time.*
+                     a buffer that allows for 30% spikes at any time.*
 
 **Network Speed**
 • These servers should have gigabit network interfaces and should be local to the shared resources of
